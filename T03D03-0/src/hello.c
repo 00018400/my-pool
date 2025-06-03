@@ -2,7 +2,8 @@
 
 int main() {
     
-    printf("Hello, AI!");
+    char name[] = "Ai";
+    printf("Hello, %s", name);
 
     return 0;
 }
