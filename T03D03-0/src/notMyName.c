@@ -3,7 +3,7 @@
 int main() {
     
     int name;
-    fgets(name, 50, stdin);
+    scanf("%d", name);
     printf("Hello, %d", name);
 
     return 0;
